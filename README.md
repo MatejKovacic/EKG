@@ -18,8 +18,8 @@ Electrodes should be connected to the human chest the following way:
 ![How to connecct ECK electrodes](EKG_electrode_connect.png)
 
 ## Materials needed
- * ECG module (AD8232) with electrodes
- * ECG lead patch
+ * ECG module (AD8232) with electrodes (cost is around 7 EUR)
+ * ECG lead patch (cost is around 0.18 EUR)
  * Adruino Nano
 
 ## Wiring
@@ -43,3 +43,5 @@ Processing application uses ttyUSB0 device on Linux. If you are using different 
 Applicaton alsi lists all the available serial ports. List is shown below Processing mail window, so you can easily find out which serial devices are present on your system.
 
 ![Visualisation of electrocardiogram](Processing_EKG.png)
+
+It is recommended to use quality ECG lead patches. If they are worn out, heart signal could become weird or completely lost.
